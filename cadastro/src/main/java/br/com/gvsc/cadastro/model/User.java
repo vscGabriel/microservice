@@ -5,6 +5,8 @@ import org.hibernate.validator.constraints.br.CPF;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @Entity
@@ -23,4 +25,7 @@ public class User {
     private String cpf;
     @NotBlank
     private String senha;
+
+    @OneToMany
+    List<Produtos> listaProdutos = new ArrayList<>();
 }
