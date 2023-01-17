@@ -15,16 +15,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="auth" target="1.5" />
-      <module name="cadastro" target="1.6" />
-      <module name="config-server" target="1.6" />
+      <module name="auth" target="19" />
+      <module name="cadastro" target="19" />
+      <module name="config-server" target="19" />
       <module name="gatway" target="19" />
-      <module name="ordem-servico" target="1.6" />
+      <module name="ordem-servico" target="19" />
       <module name="service-discovery" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
       <module name="cadastro" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="gatway" options="-parameters" />
