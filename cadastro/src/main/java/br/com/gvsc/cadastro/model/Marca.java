@@ -1,5 +1,6 @@
 package br.com.gvsc.cadastro.model;
 
+
 import lombok.Data;
 
 import javax.persistence.Entity;

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,8 +10,8 @@
         <module name="config-server" />
         <module name="cadastro" />
         <module name="ordem-servico" />
-        <module name="gatway" />
         <module name="auth" />
+        <module name="gatway" />
         <module name="service-discovery" />
       </profile>
     </annotationProcessing>
@@ -18,7 +19,7 @@
       <module name="auth" target="19" />
       <module name="cadastro" target="19" />
       <module name="config-server" target="19" />
-      <module name="gatway" target="19" />
+      <module name="gatway" target="11" />
       <module name="ordem-servico" target="19" />
       <module name="service-discovery" target="19" />
     </bytecodeTargetLevel>
